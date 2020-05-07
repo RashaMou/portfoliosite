@@ -1,5 +1,7 @@
 import * as React from "react"
 import placeholder from "../images/placeholder.png"
+import phillymarkets from "../images/phillymarkets.png"
+import key from "../images/key.webp"
 
 const Projects = () => {
   return (
@@ -10,7 +12,7 @@ const Projects = () => {
         <div>
           <div className="project proj-1">
             <h3>Key Conservation</h3>
-            <img className="placeholder" src={placeholder} alt="placeholder" />
+            <img className="placeholder" src={key} alt="Key Conservation" />
           </div>
           <p>
             Doggo ipsum extremely cuuuuuute woofer such treat vvv doing me a
@@ -21,14 +23,18 @@ const Projects = () => {
           <a href="#">
             <p className="project-source project-link">SOURCE >></p>
           </a>
-          <a href="#">
+          <a href="https://www.keyconservation.org">
             <p className="project-link view-project">VIEW PROJECT >></p>
           </a>
         </div>
         <div>
           <div className="project proj-2">
             <h3>Philly Farmer's Markets</h3>
-            <img className="placeholder" src={placeholder} alt="placeholder" />
+            <img
+              className="placeholder"
+              src={phillymarkets}
+              alt="Philly Farmer's Markets"
+            />
           </div>
           <p>
             Doggo ipsum extremely cuuuuuute woofer such treat vvv doing me a
@@ -39,7 +45,7 @@ const Projects = () => {
           <a href="#">
             <p className="project-source project-link">SOURCE >></p>
           </a>
-          <a href="#">
+          <a href="https://www.phillyfarmersmarkets.com">
             <p className="project-link view-project">VIEW PROJECT >></p>
           </a>
         </div>
