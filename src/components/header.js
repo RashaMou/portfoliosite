@@ -1,11 +1,23 @@
 import React from "react"
 import rashaLogo from "../images/rasha.png"
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa"
 
 const Header = () => {
   return (
     <header className="header">
       <img className="logo" src={rashaLogo} alt="RASHA" />
-      <div className="horizontal-line"></div>
+      <div className="socials-line">
+        <div className="horizontal-line"></div>
+        <a href="https://www.github.com/RashaMou">
+          <FaGithub className="socials" />
+        </a>
+        <a href="https://www.linkedin.com/in/rashamoumneh/">
+          <FaLinkedin className="socials" />
+        </a>
+        <a href="mailto:hi@rasha.dev">
+          <FaEnvelope className="socials" />
+        </a>
+      </div>
       <div className="hi">
         <p>Hi. My name is Rasha Moumneh.</p>
         <p>I am a fullstack developer living in</p>
