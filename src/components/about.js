@@ -1,5 +1,4 @@
 import * as React from "react"
-import "../styles/body.scss"
 import keyboard from "../images/keyboard.jpg"
 
 const About = () => {

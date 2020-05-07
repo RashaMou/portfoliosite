@@ -4,6 +4,9 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Projects from "../components/projects"
 import About from "../components/about"
+import "../styles/body.scss"
+import "../styles/layout.scss"
+import "../styles/header.scss"
 
 const IndexPage = () => (
   <Layout>

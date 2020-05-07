@@ -13,3 +13,45 @@
     max-width: 400px;
   }
 }
+
+.section-title {
+  margin-top: 30px;
+  color: #66fcf1;
+}
+
+.projects-flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  .project {
+    width: 400px;
+    height: 500px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .placeholder {
+      width: 300px;
+      margin: 0 auto;
+      height: 350px;
+    }
+  }
+
+  .proj-1 {
+    background-color: #1f2833;
+  }
+
+  .proj-2 {
+    background-color: #66fcf1;
+  }
+
+  .proj-3 {
+    background-color: #45a29e;
+  }
+
+  .proj-4 {
+    background-color: #c5c6c7;
+  }
+}
