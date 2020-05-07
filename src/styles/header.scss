@@ -12,12 +12,6 @@
     width: 400px;
     justify-content: space-between;
 
-    .horizontal-line {
-      margin-top: 100px;
-      border-bottom: 4px solid #c5c6c7;
-      width: 200px;
-    }
-
     .socials {
       color: #c5c6c7;
       font-size: 1.8rem;
@@ -37,4 +31,10 @@
       color: #66fcf1;
     }
   }
+}
+
+.horizontal-line {
+  margin-top: 100px;
+  border-bottom: 4px solid #c5c6c7;
+  width: 200px;
 }

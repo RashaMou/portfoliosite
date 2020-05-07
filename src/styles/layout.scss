@@ -24,6 +24,30 @@ section,
 summary {
   display: block;
 }
+footer {
+  .footer-logo {
+    width: 70px;
+    margin-top: 50px;
+    padding: 0;
+  }
+  a {
+    color: #45a29e;
+    font-size: 1.1rem;
+    text-decoration: none;
+  }
+  .footer-flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .footer-socials {
+    margin-top: 20px;
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+  }
+}
 audio,
 canvas,
 progress,

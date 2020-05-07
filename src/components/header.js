@@ -11,7 +11,7 @@ const Header = () => {
         <a href="https://www.github.com/RashaMou">
           <FaGithub className="socials" />
         </a>
-        <a href="https://www.linkedin.com/in/rashamoumneh/">
+        <a href="https://www.linkedin.com/in/rashamoumneh">
           <FaLinkedin className="socials" />
         </a>
         <a href="mailto:hi@rasha.dev">
