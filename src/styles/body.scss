@@ -1,0 +1,15 @@
+.banner {
+  margin-top: 100px;
+  width: 100%;
+}
+
+.about-flex-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+
+  .about {
+    color: #cfc6c7;
+    max-width: 400px;
+  }
+}
