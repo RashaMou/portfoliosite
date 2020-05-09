@@ -1,6 +1,6 @@
 import React from "react"
 import rashaLogo from "../images/rasha.png"
-import { FaGithub, FaLinkedin, FaEnvelope, FaFile } from "react-icons/fa"
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa"
 
 const Header = () => {
   return (
@@ -14,9 +14,6 @@ const Header = () => {
           </a>
           <a href="https://www.linkedin.com/in/rashamoumneh">
             <FaLinkedin className="socials" />
-          </a>
-          <a href="https://www.linkedin.com/in/rashamoumneh">
-            <FaFile className="socials" />
           </a>
           <a href="mailto:hi@rasha.dev">
             <FaEnvelope className="socials" />

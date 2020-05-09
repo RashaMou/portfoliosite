@@ -15,27 +15,31 @@ const Projects = () => {
             <h3>Key Conservation</h3>
             <img className="project-image" src={key} alt="Key Conservation" />
           </div>
-          <p>
-            As a contactor for{" "}
-            <a
-              className="project-text-link project-link"
-              href="https://www.keyconservation.org"
-            >
-              Key Conservation
-            </a>
-            , I collaborate with a team of engineers remotely on a mobile app
-            that helps conservationists gain critical funding and global support
-            by connecting them with volunteers and providing real-time updates
-            on day-to-day campaigns. I deliver core app features on both the
-            React Native front-end and the Node backend. I am also designing and
-            building the core admin interface for the app.
-          </p>
-          <a href="https://github.com/Lambda-School-Labs/key-conservation-mobile">
-            <p className="project-source project-link">SOURCE >></p>
-          </a>
-          <a href="https://www.keyconservation.org">
-            <p className="project-link view-project">VIEW PROJECT >></p>
-          </a>
+          <div className="text-container">
+            <p>
+              As a contactor for{" "}
+              <a
+                className="project-text-link project-link"
+                href="https://www.keyconservation.org"
+              >
+                Key Conservation
+              </a>
+              , I collaborate with a team of engineers remotely on a mobile app
+              that helps conservationists gain critical funding and global
+              support by connecting them with volunteers and providing real-time
+              updates on day-to-day campaigns. I deliver core app features on
+              both the React Native front-end and the Node backend. I am also
+              designing and building the core admin interface for the app.
+            </p>
+            <div className="links-container">
+              <a href="https://github.com/Lambda-School-Labs/key-conservation-mobile">
+                <p className="project-source project-link">SOURCE >></p>
+              </a>
+              <a href="https://www.keyconservation.org">
+                <p className="project-link view-project">VIEW PROJECT >></p>
+              </a>
+            </div>
+          </div>
         </div>
         <div>
           <div className="project proj-2">
