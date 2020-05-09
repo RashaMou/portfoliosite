@@ -6,6 +6,12 @@
     width: 100px;
   }
 
+  .socials-container {
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+  }
+
   .socials-line {
     display: flex;
     align-items: center;
@@ -15,7 +21,6 @@
     .socials {
       color: #c5c6c7;
       font-size: 1.8rem;
-      margin-top: 93px;
       &:hover {
         cursor: pointer;
         color: #66fcf1;
@@ -24,7 +29,7 @@
   }
 
   .hi {
-    margin-top: 50px;
+    margin: 50px 0 70px 0;
     p {
       font-size: 3rem;
       line-height: 2rem;
@@ -35,7 +40,6 @@
 }
 
 .horizontal-line {
-  margin-top: 100px;
   border-bottom: 4px solid #c5c6c7;
   width: 200px;
 }

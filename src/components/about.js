@@ -1,10 +1,11 @@
 import * as React from "react"
 import keyboard from "../images/keyboard.jpg"
+import Image from "../components/banner_image"
 
 const About = () => {
   return (
     <>
-      <img className="banner" src={keyboard} alt="banner" />
+      <Image className="banner" />
       <div className="about-flex-container">
         <div className="col-1 about">
           Doggo ipsum big ol pupper shoober fluffer puggorino heckin good boys
