@@ -2,6 +2,7 @@ import * as React from "react"
 import placeholder from "../images/placeholder.png"
 import phillymarkets from "../images/phillymarkets.png"
 import key from "../images/key.webp"
+import foodieFun from "../images/foodie-fun.png"
 
 const Projects = () => {
   return (
@@ -12,15 +13,24 @@ const Projects = () => {
         <div>
           <div className="project proj-1">
             <h3>Key Conservation</h3>
-            <img className="placeholder" src={key} alt="Key Conservation" />
+            <img className="project-image" src={key} alt="Key Conservation" />
           </div>
           <p>
-            Doggo ipsum extremely cuuuuuute woofer such treat vvv doing me a
-            frighten I am bekom fat, big ol puggorino heckin good boys and
-            girls. Most angery pupper I have ever seen smol borking doggo with a
-            long snoot for pats floofs woofer most angery pupper I have ever see
+            As a contactor for{" "}
+            <a
+              className="project-text-link project-link"
+              href="https://www.keyconservation.org"
+            >
+              Key Conservation
+            </a>
+            , I collaborate with a team of engineers remotely on a mobile app
+            that helps conservationists gain critical funding and global support
+            by connecting them with volunteers and providing real-time updates
+            on day-to-day campaigns. I deliver core app features on both the
+            React Native front-end and the Node backend. I am also designing and
+            building the core admin interface for the app.
           </p>
-          <a href="#">
+          <a href="https://github.com/Lambda-School-Labs/key-conservation-mobile">
             <p className="project-source project-link">SOURCE >></p>
           </a>
           <a href="https://www.keyconservation.org">
@@ -31,18 +41,18 @@ const Projects = () => {
           <div className="project proj-2">
             <h3>Philly Farmer's Markets</h3>
             <img
-              className="placeholder"
+              className="project-image"
               src={phillymarkets}
               alt="Philly Farmer's Markets"
             />
           </div>
           <p>
-            Doggo ipsum extremely cuuuuuute woofer such treat vvv doing me a
-            frighten I am bekom fat, big ol puggorino heckin good boys and
-            girls. Most angery pupper I have ever seen smol borking doggo with a
-            long snoot for pats floofs woofer most angery pupper I have ever see
+            Personal project app that displays farmer's markets in Philadelphia
+            on a map with various display filters. The data is pulled from
+            OpenDataPhilly using an ArcGIS API. Built using React and Context
+            API with Google Maps API integration.
           </p>
-          <a href="#">
+          <a href="https://github.com/RashaMou/philly-farmers-markets">
             <p className="project-source project-link">SOURCE >></p>
           </a>
           <a href="https://www.phillyfarmersmarkets.com">
@@ -52,15 +62,18 @@ const Projects = () => {
         <div>
           <div className="project proj-3">
             <h3>Weather App</h3>
-            <img className="placeholder" src={placeholder} alt="placeholder" />
+            <img
+              className="project-image"
+              src={placeholder}
+              alt="placeholder"
+            />
           </div>
           <p>
-            Doggo ipsum extremely cuuuuuute woofer such treat vvv doing me a
-            frighten I am bekom fat, big ol puggorino heckin good boys and
-            girls. Most angery pupper I have ever seen smol borking doggo with a
-            long snoot for pats floofs woofer most angery pupper I have ever see
+            Weather app built with React, Context API, Dark Sky API, and
+            Node/Express backend. The app has a dynamic background that displays
+            a satellite view of the entered location using the Google Maps API.
           </p>
-          <a href="#">
+          <a href="https://github.com/RashaMou/weather-app">
             <p className="project-source project-link">SOURCE >></p>
           </a>
           <a href="#">
@@ -69,20 +82,25 @@ const Projects = () => {
         </div>
         <div>
           <div className="project proj-4">
-            <h3>Food Truck Trackr</h3>
-            <img className="placeholder" src={placeholder} alt="placeholder" />
+            <h3>Foodie Fun</h3>
+            <img className="project-image" src={foodieFun} alt="FoodieFun" />
           </div>
           <p>
-            Doggo ipsum extremely cuuuuuute woofer such treat vvv doing me a
-            frighten I am bekom fat, big ol puggorino heckin good boys and
-            girls. Most angery pupper I have ever seen smol borking doggo with a
-            long snoot for pats floofs woofer most angery pupper I have ever see
+            This was a project I completed during my time at{" "}
+            <a
+              className="project-text-link project-link"
+              href="https://www.lambdaschool.com"
+            >
+              Lambda School
+            </a>
+            . I collaborated remotely with a team of 5 developers as lead
+            backend developer. I designed and implemented the backend of a food
+            journaling app that allows users to record details, upload photos,
+            and rate restaurants they have visited. Built using Node and Express
+            with a Postgres database. Deployed backend to Heroku.
           </p>
-          <a href="#">
+          <a href="https://github.com/Build-Week-Foodie-Fun-4/Back-End">
             <p className="project-source project-link">SOURCE >></p>
-          </a>
-          <a href="#">
-            <p className="project-link view-project">VIEW PROJECT >></p>
           </a>
         </div>
       </div>

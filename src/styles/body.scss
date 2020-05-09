@@ -7,7 +7,7 @@
 .about-flex-container {
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
+  margin: 20px 0 70px 0;
 
   .about {
     color: #cfc6c7;
@@ -44,7 +44,7 @@
     justify-content: center;
     align-items: center;
 
-    .placeholder {
+    .project-image {
       width: 300px;
       margin: 0 auto;
       height: 350px;
@@ -63,6 +63,10 @@
       cursor: pointer;
       color: #66fcf1;
     }
+  }
+
+  .project-text-link {
+    font-style: normal;
   }
 
   .view-project {
