@@ -3,6 +3,7 @@ import placeholder from "../images/placeholder.png"
 import phillymarkets from "../images/phillymarkets.png"
 import key from "../images/key.webp"
 import foodieFun from "../images/foodie-fun.png"
+import weather from "../images/weather.png"
 
 const Projects = () => {
   return (
@@ -66,11 +67,7 @@ const Projects = () => {
         <div>
           <div className="project proj-3">
             <h3>Weather App</h3>
-            <img
-              className="project-image"
-              src={placeholder}
-              alt="placeholder"
-            />
+            <img className="project-image" src={weather} alt="Weather-app" />
           </div>
           <p>
             Weather app built with React, Context API, Dark Sky API, and
@@ -80,7 +77,7 @@ const Projects = () => {
           <a href="https://github.com/RashaMou/weather-app">
             <p className="project-source project-link">SOURCE >></p>
           </a>
-          <a href="#">
+          <a href="https://rasha-weather.netlify.app/">
             <p className="project-link view-project">VIEW PROJECT >></p>
           </a>
         </div>
