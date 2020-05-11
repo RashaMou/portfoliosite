@@ -1,16 +1,8 @@
-/**
- * Layout component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
- */
-
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-
+import rashaLogo from "../images/rasha.png"
 import Header from "./header"
-import "./layout.css"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -34,10 +26,17 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
+
         <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <div className="horizontal-line"></div>
+          <div className="footer-flex-container">
+            <img className="footer-logo" src={rashaLogo} alt="RASHA" />
+            <div className="footer-socials">
+              <a href="https://www.github.com/RashaMou">github</a>
+              <a href="https://www.linkedin.com/in/rashamoumneh">linkedin</a>
+              <a href="mailto:hi@rasha.dev">email</a>
+            </div>
+          </div>
         </footer>
       </div>
     </>
