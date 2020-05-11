@@ -8,20 +8,17 @@ const About = () => {
       <div className="about-flex-container">
         <div className="col-1 about">
           <p>
-            I moved to the US from Beirut, Lebanon in 2013 after a long career
-            focused on human rights in the Middle East. I was ready for a
-            change.
+            I'm a relatively recent transplant to the US, having moved here from
+            Beirut, Lebanon in 2013.
           </p>
           <p>
-            I have always been drawn to technology, tinkering with websites,
-            building toy projects, and creating an online presence for small
-            grassroots groups I was a part of. When I found myself at a
-            crossroads, I realized that I was lucky enough to have the tools and
-            the ability to go after that passion.
+            When I found myself at a career crossroads, I realized that I was
+            lucky enough to have the opportunity to pursue my passion for
+            building things with code.
           </p>
           <p>
-            That led me to pursue accreditation as a full stack developer at{" "}
-            <a href="https://www.lambdaschool.com">Lambda School</a>. I spent
+            That led me to work towards accreditation as a full stack developer
+            at <a href="https://www.lambdaschool.com">Lambda School</a>. I spent
             twelve months - half of which were fulltime - studying and immersing
             myself in web development.
           </p>
