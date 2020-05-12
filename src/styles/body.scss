@@ -1,3 +1,7 @@
+$phone: 414px;
+$tablet: 768px;
+$desktop: 1200px;
+
 #gatsby-focus-wrapper {
   border: 1 px solid white;
   margin: 0 auto;
@@ -8,10 +12,16 @@
   display: flex;
   justify-content: space-between;
   margin: 20px 0 70px 0;
+  @media screen and (max-width: $phone) {
+    flex-direction: column;
+  }
 
   .about {
     color: #cfc6c7;
-    max-width: 400px;
+
+    @media screen and (min-width: $tablet) {
+      max-width: 420px;
+    }
   }
 }
 
@@ -26,6 +36,9 @@
   justify-content: space-between;
   flex-wrap: wrap;
   margin-bottom: 70px;
+  @media screen and (max-width: $tablet) {
+    justify-content: center;
+  }
 
   a {
     text-decoration: none;
@@ -37,7 +50,6 @@
   }
 
   .project {
-    width: 400px;
     height: 500px;
     margin-bottom: 30px;
     display: flex;
