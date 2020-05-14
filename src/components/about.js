@@ -35,8 +35,8 @@ const About = () => {
             teams in a remote working environment to deliver real products used
             by real people. After I finished my coursework, I was hired by the
             stakeholder of the capstone project I developed as a member of a 6
-            person team at Lambda. You can read more about the Key Conservation
-            app below.
+            person team at Lambda. You can read more about the{" "}
+            <a href="#key">Key Conservation app</a> below.
           </p>
         </div>
       </div>

@@ -12,7 +12,7 @@ const Projects = () => {
       <h2 className="section-title">PROJECTS</h2>
       <div className="projects-flex-container">
         <div>
-          <div className="project proj-1">
+          <div className="project proj-1" id="key">
             <h3>Key Conservation</h3>
             <img className="project-image" src={key} alt="Key Conservation" />
           </div>
@@ -27,10 +27,11 @@ const Projects = () => {
               </a>
               , I collaborate with a team of engineers remotely on a mobile app
               that helps conservationists gain critical funding and global
-              support by connecting them with volunteers and providing real-time
-              updates on day-to-day campaigns. I deliver core app features on
-              both the React Native front-end and the Node backend. I am also
-              designing and building the core admin interface for the app.
+              support. The app connects them with supporters who want to donate
+              money or volunteer their time or skills to specific campaigns. I
+              deliver core app features on both the React Native front-end and
+              the Node backend. I am also designing and building the core admin
+              interface for the app.
             </p>
             <div className="links-container">
               <a href="https://github.com/Lambda-School-Labs/key-conservation-mobile">
