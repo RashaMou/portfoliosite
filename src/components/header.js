@@ -22,8 +22,7 @@ const Header = () => {
       </div>
       <div className="hi">
         <p>Hi. My name is Rasha Moumneh.</p>
-        <p>I am a fullstack developer living in</p>
-        <p>Philadelphia, PA.</p>
+        <p>I am a fullstack developer living in Philadelphia, PA.</p>
       </div>
     </header>
   )
