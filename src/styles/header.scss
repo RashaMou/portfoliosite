@@ -1,3 +1,7 @@
+$phone: 414px;
+$desktop: 1200px;
+$tablet: 768px;
+
 .header {
   margin-top: 50px;
   padding-left: 35px;
@@ -30,11 +34,18 @@
 
   .hi {
     margin: 50px 0 70px 0;
+
     p {
       font-size: 3rem;
       line-height: 2rem;
       font-weight: 700;
       color: #66fcf1;
+      @media screen and (max-width: $phone) {
+        font-size: 1.9rem;
+      }
+      @media screen and (min-width: $tablet) {
+        font-size: 2.2rem;
+      }
     }
   }
 }
@@ -42,4 +53,7 @@
 .horizontal-line {
   border-bottom: 4px solid #c5c6c7;
   width: 200px;
+  @media screen and (max-width: $phone) {
+    display: none;
+  }
 }
