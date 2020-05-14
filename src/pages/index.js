@@ -10,7 +10,7 @@ import "../styles/header.scss"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="rasha.dev" />
+    <SEO title="Rasha Moumneh" />
     <About />
     <Projects />
   </Layout>
