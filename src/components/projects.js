@@ -18,7 +18,7 @@ const Projects = () => {
           </div>
           <div className="text-container">
             <p>
-              As a contactor for{" "}
+              As a contractor for{" "}
               <a
                 className="project-text-link project-link"
                 href="https://www.keyconservation.org"
