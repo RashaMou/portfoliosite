@@ -34,9 +34,6 @@ const Projects = () => {
               interface for the app.
             </p>
             <div className="links-container">
-              <a href="https://github.com/Lambda-School-Labs/key-conservation-mobile">
-                <p className="project-source project-link">SOURCE >></p>
-              </a>
               <a href="https://www.keyconservation.org">
                 <p className="project-link view-project">VIEW PROJECT >></p>
               </a>
