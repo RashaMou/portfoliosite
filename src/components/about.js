@@ -12,9 +12,8 @@ const About = () => {
             Beirut, Lebanon in 2013.
           </p>
           <p>
-            When I found myself at a career crossroads, I realized that I was
-            lucky enough to have the opportunity to pursue my passion for
-            building things with code.
+            When I found myself at a career crossroads, I decided to pursue my
+            passion for building things with code.
           </p>
           <p>
             That led me to work towards accreditation as a full stack developer
