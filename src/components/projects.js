@@ -4,6 +4,7 @@ import phillymarkets from "../images/phillymarkets.png"
 import key from "../images/key.png"
 import foodieFun from "../images/foodie-fun.png"
 import weather from "../images/weather.png"
+import pokedex from "../images/pokedex.png"
 
 const Projects = () => {
   return (
@@ -100,6 +101,23 @@ const Projects = () => {
           </p>
           <a href="https://github.com/Build-Week-Foodie-Fun-4/Back-End">
             <p className="project-source project-link">SOURCE >></p>
+          </a>
+        </div>
+        <div>
+          <div className="project proj-2">
+            <h3>Pokedex</h3>
+            <img className="project-image" src={pokedex} alt="Pokedex" />
+          </div>
+          <p>
+            Fully responsive Pokedex built with React, Context API, MaterialUI
+            and PokeApi. Custom hooks save user theme preference in local
+            storage.
+          </p>
+          <a href="https://github.com/RashaMou/pokedex">
+            <p className="project-source project-link">SOURCE >></p>
+          </a>
+          <a href="https://unruffled-mcnulty-29f3ec.netlify.app/">
+            <p className="project-link view-project">VIEW PROJECT >></p>
           </a>
         </div>
       </div>
