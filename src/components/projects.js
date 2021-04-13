@@ -1,10 +1,9 @@
 import * as React from "react"
-import placeholder from "../images/placeholder.png"
-import phillymarkets from "../images/phillymarkets.png"
-import key from "../images/key.png"
 import foodieFun from "../images/foodie-fun.png"
-import weather from "../images/weather.png"
+import key from "../images/key.png"
+import phillymarkets from "../images/phillymarkets.png"
 import pokedex from "../images/pokedex.png"
+import weather from "../images/weather.png"
 
 const Projects = () => {
   return (

@@ -1,6 +1,6 @@
 import React from "react"
+import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa"
 import rashaLogo from "../images/rasha.png"
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa"
 
 const Header = () => {
   return (
@@ -21,8 +21,8 @@ const Header = () => {
         </div>
       </div>
       <div className="hi">
-        <p>Hi. My name is Rasha Moumneh.</p>
-        <p>I am a fullstack developer living in Philadelphia.</p>
+        <p>👋🏽 Hi.</p>
+        <p>I'm Rasha Moumneh.</p>
       </div>
     </header>
   )

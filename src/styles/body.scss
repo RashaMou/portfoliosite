@@ -8,20 +8,15 @@ $desktop: 1200px;
 }
 
 .about-flex-container {
-  display: flex;
-  justify-content: space-between;
-  margin: 3rem 0 70px 0;
+  //
   @media screen and (max-width: $phone) {
     flex-direction: column;
   }
+}
 
-  .about {
-    color: #cfc6c7;
-
-    @media screen and (min-width: $tablet) {
-      max-width: 420px;
-    }
-  }
+.about {
+  color: #cfc6c7;
+  margin-top: 30px;
 }
 
 .section-title {
