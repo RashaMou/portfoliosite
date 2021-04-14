@@ -3,7 +3,6 @@ import foodieFun from "../images/foodie-fun.png"
 import key from "../images/key.png"
 import phillymarkets from "../images/phillymarkets.png"
 import pokedex from "../images/pokedex.png"
-import weather from "../images/weather.png"
 
 const Projects = () => {
   return (
@@ -62,7 +61,7 @@ const Projects = () => {
             <p className="project-link view-project">VIEW PROJECT >></p>
           </a>
         </div>
-        <div>
+        {/* <div>
           <div className="project proj-3">
             <h3>Weather App</h3>
             <img className="project-image" src={weather} alt="Weather-app" />
@@ -78,7 +77,7 @@ const Projects = () => {
           <a href="https://rasha-weather.netlify.app/">
             <p className="project-link view-project">VIEW PROJECT >></p>
           </a>
-        </div>
+        </div> */}
         <div>
           <div className="project proj-4">
             <h3>Foodie Fun</h3>
