@@ -25,13 +25,14 @@ const Projects = () => {
               >
                 Key Conservation
               </a>
-              , I collaborate with a team of engineers remotely on a mobile app
+              , I collaborated with a team of engineers remotely on a mobile app
               that helps conservationists gain critical funding and global
               support. The app connects them with supporters who want to donate
               money or volunteer their time or skills to specific campaigns. I
-              deliver core app features on both the React Native front-end and
-              the Node backend. I am also designing and building the core admin
-              interface for the app.
+              delivered core app features on both the React Native front-end and
+              the Node backend. I also designed and built the core admin
+              interface for the app, as well as overhauled the organization sign
+              up process.
             </p>
             <div className="links-container">
               <a href="https://www.keyconservation.org">
