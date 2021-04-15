@@ -1,4 +1,5 @@
 import * as React from "react"
+import animation from "../images/animation.png"
 import foodieFun from "../images/foodie-fun.png"
 import key from "../images/key.png"
 import phillymarkets from "../images/phillymarkets.png"
@@ -78,6 +79,26 @@ const Projects = () => {
             <p className="project-link view-project">VIEW PROJECT >></p>
           </a>
         </div> */}
+        <div>
+          <div className="project proj-3">
+            <h3>Framer Motion Animations</h3>
+            <img
+              className="project-image"
+              src={animation}
+              alt="animation-showcase"
+            />
+          </div>
+          <p>
+            A toy project to showcase some basic animations in React with the
+            framer motion library.
+          </p>
+          <a href="https://github.com/RashaMou/framer-motion-pizza">
+            <p className="project-source project-link">SOURCE >></p>
+          </a>
+          <a href="https://xenodochial-curie-518305.netlify.app/">
+            <p className="project-link view-project">VIEW PROJECT >></p>
+          </a>
+        </div>
         <div>
           <div className="project proj-4">
             <h3>Foodie Fun</h3>
