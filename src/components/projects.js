@@ -115,9 +115,10 @@ const Projects = () => {
             </a>
             . I collaborated remotely with a team of 5 developers as lead
             backend developer. I designed and implemented the backend of a food
-            journaling app that allows users to record details, upload photos,
-            and rate restaurants they have visited. Built using Node and Express
-            with a Postgres database. Deployed backend to Heroku.
+            journaling app that authenticates user and allows them to record
+            details, upload photos, and rate restaurants they have visited.
+            Built using Node and Express with a Postgres database. Deployed
+            backend to Heroku.
           </p>
           <a href="https://github.com/Build-Week-Foodie-Fun-4/Back-End">
             <p className="project-source project-link">SOURCE >></p>
